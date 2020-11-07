@@ -13,8 +13,8 @@
 /*.hamburger__menu {
     width: 35px;
   height: 5px;
-  
   margin: 6px 0;
+
 }*/
 
 .header__search {
@@ -66,32 +66,65 @@ section{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     width: 80%;
+    font-size: 1.2rem;
 
 }
 .main-cards {
-    display: inline-block;
+    
+    
+    text-align: center;
+    line-height> 75px;
+    font-size: 30px;
+    font-color: #ffffff;
+
 }
-.main__card .card__top {
-    border-radius: 0 .25 0.25 0;
+.main__card {
+    display: inline-block;
+    text-align: left;
+    line-height> 35px;
+    font-size: 1.1rem;
+    font-color: #ffffff;
+  
+    padding: 10px;
+}
+
+.card__top {
+    display: inline-block;
+    border-radius: .25;
     width: 100px;
     height: 50px;
 
 }
 
-.main__card .card__bottom {
+.card__bottom {
+    display: inline-block;
     border-radius: 0.25 0 0 0.25;
     width: 100px;
     height: 50px;
+    
 }
 .main__card--red {
     background-color: rgb(220, 53, 69); 
+    width: 200px;
+    height: 100px;
+    border-radius: 25deg;
+    
 }
 .main__card--green {
     background-color: rgb(40, 167, 69); 
+    width: 200px;
+    height: 100px;
+   
 }
 .main__card--yellow {
     background-color: rgb(255, 193, 7); 
+    width: 200px;
+    height: 100px;
+    
 }
 .main__card--blue {
-    background-color: rgb(0, 123, 255); 
+    background-color: rgb(0, 123, 255);
+    width: 200px;
+    height: 100px;
+     
 }
