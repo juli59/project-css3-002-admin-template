@@ -1,9 +1,97 @@
 .header--dark {
-    background-color: rgba(51, 57, 64, 100%);
-    color: rgba(236,236,236, 100%)
+    background-color: rgb(51, 57, 64);
+    color: rgb(236,236,236); 
+    height: 50px; 
+  
 }
+
 .header__title {
     display: inline;
     font-size: 1.25rem;
-    content: "Admin Page";
+}
+
+/*.hamburger__menu {
+    width: 35px;
+  height: 5px;
+  
+  margin: 6px 0;
+}*/
+
+.header__search {
+    display: inline;
+    float: right;
+   
+}
+.header__search .search__input {
+    border-radius: 4px 0 4px 0;
+    padding: 0.375 0.75;
+    font-size: 1.2rem;
+}
+.search__btn {
+    background-color: rgb(0, 123, 255);
+}
+.main__nav {
+    background-color:rgba(33, 37, 41, 100%);
+    float: left;
+    width: 20%;
+    color: rgba(128, 128, 128, 100%); 
+    height: 1000px;
+    text-align: :left;
+
+    
+}
+.nav-ul {
+    background-color:rgba(33, 37, 41, 100%);
+    float: left;
+    width: 20%;
+    color: rgba(128, 128, 128, 100%); 
+    
+    text-align: left;
+}
+
+section{
+    float: right;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    
+
+    
+}
+.main__breadcrumb {
+    float: left;
+    background-color: rgb(233, 236, 239);
+    border-radius: 0.25rem;
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 80%;
+
+}
+.main-cards {
+    display: inline-block;
+}
+.main__card .card__top {
+    border-radius: 0 .25 0.25 0;
+    width: 100px;
+    height: 50px;
+
+}
+
+.main__card .card__bottom {
+    border-radius: 0.25 0 0 0.25;
+    width: 100px;
+    height: 50px;
+}
+.main__card--red {
+    background-color: rgb(220, 53, 69); 
+}
+.main__card--green {
+    background-color: rgb(40, 167, 69); 
+}
+.main__card--yellow {
+    background-color: rgb(255, 193, 7); 
+}
+.main__card--blue {
+    background-color: rgb(0, 123, 255); 
 }
