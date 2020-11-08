@@ -2,14 +2,48 @@
     background-color: rgb(51, 57, 64);
     color: rgb(236,236,236); 
     height: 50px; 
+    
   
 }
 
 .header__title {
     display: inline;
-    font-size: 1.25rem;
+    font-size: 1.55rem;
+    position: relative;
+    top: 10px;
+    
 }
+.menu {
+    color: rgb(236,236,236);
+    display: inline;
+    margin: 0;
+    border: 1px;
+    position: relative;
+    left: 200px;
+    top: -40px;
+    right: 50px;
+    
+}
+.menu1 {
+    color: rgb(236,236,236);
+    position: relative;
+    left: 19px;
+   
+    
+    
+    
+}
+.hamburger {
+    width: 15px;
+    color: rgb(236,236,236);
+  display: block;
 
+    height: 3px;
+    background-color: black;
+    margin: 3px 0;
+    position: relative;
+    left: 50;
+}
 /*.hamburger__menu {
     width: 35px;
   height: 5px;
@@ -20,15 +54,20 @@
 .header__search {
     display: inline;
     float: right;
+    position: relative;
+    top: -80px;
    
 }
 .header__search .search__input {
     border-radius: 4px 0 4px 0;
     padding: 0.375 0.75;
     font-size: 1.2rem;
+    
 }
 .search__btn {
     background-color: rgb(0, 123, 255);
+    border-radius: 4px;
+
 }
 .main__nav {
     background-color:rgba(33, 37, 41, 100%);
@@ -36,7 +75,7 @@
     width: 20%;
     color: rgba(128, 128, 128, 100%); 
     height: 1000px;
-    text-align: :left;
+    text-align: left;
 
     
 }
@@ -45,8 +84,8 @@
     float: left;
     width: 20%;
     color: rgba(128, 128, 128, 100%); 
-    
-    text-align: left;
+    display: block;
+   
 }
 
 section{
@@ -67,64 +106,200 @@ section{
     padding-right: 1.5rem;
     width: 80%;
     font-size: 1.2rem;
+    vertical-align: middle;
 
 }
+
 .main-cards {
     
     
     text-align: center;
-    line-height> 75px;
+    line-height: 75px;
     font-size: 30px;
-    font-color: #ffffff;
+    color:  rgb(233, 236, 239);
+    display: inline;
+    
 
 }
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    display: inline;
+}
 .main__card {
-    display: inline-block;
+    
     text-align: left;
-    line-height> 35px;
+    line-height: 35px;
     font-size: 1.1rem;
-    font-color: #ffffff;
+    color:  rgb(233, 236, 239);
+   display: inline;
   
-    padding: 10px;
+  
+    
 }
 
 .card__top {
-    display: inline-block;
-    border-radius: .25;
-    width: 100px;
+    /*display: inline;
+    
+    width: 200px;*/
+    float: left;
+    width: 25°%;
     height: 50px;
+    color: rgb(233, 236, 239);
+    margin-top: 20px;;
+    padding: 10px;
+    border-radius: .25;
+    
+    
 
 }
 
+.link {
+    color: rgb(233, 236, 239);
+}
+.link1 {
+    color: rgb(128, 128, 128); 
+}
 .card__bottom {
-    display: inline-block;
+    display: inline;
     border-radius: 0.25 0 0 0.25;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 150px;
+    color: #ffffff;
+    
+
+    
+   
     
 }
-.main__card--red {
+
+/*.main__card--red {
     background-color: rgb(220, 53, 69); 
     width: 200px;
     height: 100px;
-    border-radius: 25deg;
+    border-radius: 25px;
     
-}
+
 .main__card--green {
-    background-color: rgb(40, 167, 69); 
+    /*background-color: rgb(40, 167, 69); 
     width: 200px;
     height: 100px;
+    border-radius: 25px;
    
 }
 .main__card--yellow {
-    background-color: rgb(255, 193, 7); 
+    /*background-color: rgb(255, 193, 7); 
     width: 200px;
     height: 100px;
+    border-radius: 25px;
+    
+}*/
+.card__top--blue {
+    background-color:  rgb(0, 123, 255);
+    transition: background-color 3s;
+    border-radius: 25px 25px 0 0;
+    display: top;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+.card__top--yellow {
+    background-color:  rgb(255, 193, 7);
+    transition: background-color 3s;
+    border-radius: 25px 25px 0 0;
+    display: top;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+.card__top--green {
+    background-color:  rgb(40, 167, 69);
+    transition: background-color 3s;
+    border-radius: 25px 25px 0 0;
+    display: top;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
+}
+.card__top--red {
+    background-color:  rgb(220, 53, 69);
+    transition: background-color 3s;
+    border-radius: 25px 25px 0 0;
+    display: top;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    bottom: 10px;
+    height: 50px;
+    width: 200px;
     
 }
 .main__card--blue {
-    background-color: rgb(0, 123, 255);
+    /*background-color: rgb(0, 123, 255);
     width: 200px;
     height: 100px;
+    border-radius: 25px;*/
      
+}
+.card__bottom--blue {
+    background-color:  rgb(0, 123, 255);
+    transition: background-color 3s;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    height: 50px;
+    width: 200px;
+   display: bottom;
+   margin-top: -20px;
+
+    
+}
+.card__bottom--yellow {
+    background-color:  rgb(255, 193, 7);
+    transition: background-color 3s;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    height: 50px;
+    width: 200px;
+    margin-top: -20px;
+
+    
+}
+.card__bottom--green {
+    background-color: rgb(40, 167, 69);
+    transition: background-color 3s;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    height: 50px;
+    width: 200px;
+    margin-top: -20px;
+    
+}
+.card__bottom--red {
+    background-color:rgb(220, 53, 69);
+    transition: background-color 3s;
+    border-radius: 0 0 25px 25px;
+    position: relative;
+    top: 10px;
+    left: -10px;
+    height: 50px;
+    width: 200px;
+    margin-top: -20px;
+    
+
+    
 }
